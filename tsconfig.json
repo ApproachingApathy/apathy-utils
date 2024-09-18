@@ -1,3 +1,7 @@
 {
-  "extends": "@vercel/style-guide/typescript"
+  "extends": "@vercel/style-guide/typescript/node18",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "exclude": ["*.test.ts"]
 }
